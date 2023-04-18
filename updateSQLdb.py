@@ -7,3 +7,10 @@ dbConnect=mysql.connector.connect(
 )
 
 print(dbConnect)
+
+mycursor = dbConnect.cursor()
+
+mycursor.execute("SHOW DATABASES")
+
+for x in mycursor:
+  print(x)
