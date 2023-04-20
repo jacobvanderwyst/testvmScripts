@@ -18,8 +18,9 @@
 --
 -- Table structure for table `ranchers`
 --
-
-DROP TABLE IF EXISTS `ranchers`;
+CREATE DATABASE ranchersonly
+use ranchersonly
+#DROP TABLE IF EXISTS `ranchers`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `ranchers` (
@@ -36,7 +37,7 @@ CREATE TABLE `ranchers` (
 -- Table structure for table `relationships`
 --
 
-DROP TABLE IF EXISTS `relationships`;
+#DROP TABLE IF EXISTS `relationships`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `relationships` (
@@ -51,7 +52,7 @@ CREATE TABLE `relationships` (
 -- Table structure for table `staff`
 --
 
-DROP TABLE IF EXISTS `staff`;
+#DROP TABLE IF EXISTS `staff`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `staff` (
@@ -66,7 +67,7 @@ CREATE TABLE `staff` (
 -- Table structure for table `users`
 --
 
-DROP TABLE IF EXISTS `users`;
+#DROP TABLE IF EXISTS `users`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `users` (
